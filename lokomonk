@@ -1,0 +1,116 @@
+# SimC Addon 1.12.2
+# Requires SimulationCraft 820-01 or newer
+
+monk="Lokomonk"
+level=120
+race=blood_elf
+region=eu
+server=zuljin
+role=attack
+professions=leatherworking=175/jewelcrafting=175
+talents=1222212
+spec=windwalker
+
+azerite_essences=14:3/300573/12:3/300575/300576
+# azerite_essences_available=2:3/4:3/5:3/6:3/7:2/12:3/13:3/14:3/17:3/19:1/20:2/22:1/25:3/27:3/28:3/32:1
+
+head=,id=159302,bonus_id=5445/1602/4786/6267/4775,context=35,azerite_powers=390/389/22/85/13
+neck=,id=158075,bonus_id=6316/4932/4933/1594,context=11,azerite_level=62
+shoulder=,id=163432,bonus_id=5845/1622/4786/6268/4775,context=23,azerite_powers=389/117/18/14/13
+back=,id=168602,bonus_id=4800/1517/5850/4783,context=6
+chest=,id=168343,bonus_id=4823/1502/4786/6266/4775,context=5,azerite_powers=389/391/30/84/13
+wrist=,id=170305,gem_id=168642,bonus_id=6300/4802/6293/1507/4786
+hands=,id=169932,enchant_id=5937,gem_id=168642,bonus_id=4800/1808/1517/5850/4783,context=6
+waist=,id=168379,bonus_id=4799/1502/4786,context=5
+legs=,id=168715,gem_id=168642,bonus_id=1680,context=13
+feet=,id=168712,gem_id=168642,bonus_id=1676,context=13
+finger1=,id=158318,enchant_id=6111,gem_id=168642,bonus_id=5008/4802/1602/4783,context=35
+finger2=,id=168703,enchant_id=6111,gem_id=168639,bonus_id=1779,context=13
+trinket1=,id=167555,gem_id=167672/168750/167693,gem_bonus_id=0/1472:5855:4783,bonus_id=1492,context=11
+trinket2=,id=169319,bonus_id=4798/40/1487/5855/4783,context=3
+main_hand=,id=168276,enchant_id=5965,bonus_id=4799/1502/4786,context=5
+off_hand=,id=168900,enchant_id=6148,bonus_id=4799/1502/4786,context=5
+
+### Gear from Bags
+#
+# Yelmo de la marea inexorable (435)
+# head=,id=168345,bonus_id=4823/1502/4786/6267/4775,context=5,azerite_powers=383/575/18/83/13
+#
+# Hombreras de ira enajenada (435)
+# shoulder=,id=168348,bonus_id=4823/1502/4786/6268/4775,context=5,azerite_powers=383/382/99/15/13
+#
+# Capa de coordinación (58)
+# back=,id=65274,context=14
+#
+# Embozo de cooperación (35)
+# back=,id=63353,context=14
+#
+# Envoltura de unidad (35)
+# back=,id=63207,context=14
+#
+# Manteo de alzatormentas azsh'ari (385)
+# back=,id=169489,bonus_id=6288/6300
+#
+# Jubón de adoración reverente (435)
+# chest=,id=159303,bonus_id=5445/1602/4786/6266/4775,context=35,azerite_powers=384/157/21/14/13
+#
+# Tabardo de los Desencadenados (120)
+# tabard=,id=169274,context=14
+#
+# Tabardo de hermandad renombrado (1)
+# tabard=,id=69210,context=14
+#
+# Tabardo de la Resistencia de Pernoóxido (120)
+# tabard=,id=168619,context=14
+#
+# Brazales de la flota sagrada (440)
+# wrist=,id=159308,bonus_id=5010/1612/4783,context=35
+#
+# Braciles de vagador de Aguasnegras (445)
+# wrist=,id=169931,bonus_id=4800/1517/4786,context=6
+#
+# Mandiletes de fondo marino de Poen (385)
+# hands=,id=170334,bonus_id=6288/6300
+#
+# Mandiletes de acechador de las profundidades (385)
+# hands=,id=167761,bonus_id=6288/6300/4802/40
+#
+# Pretina de acechador de las profundidades (385)
+# waist=,id=167765,bonus_id=6288/6300
+#
+# Borceguíes de acechador de las profundidades (385)
+# feet=,id=170372,bonus_id=6288/6300
+#
+# Anillo de la cortesana altonato (430)
+# finger1=,id=168890,enchant_id=6111,bonus_id=4799/1502/4786,context=5
+#
+# Compendio Altonato de Baluarte místico (400)
+# trinket1=,id=169302,context=13
+#
+# Ampolla de la tempestad Arcana (430)
+# trinket1=,id=169313,bonus_id=4799/1502/4786,context=5
+#
+# Fuente de poder de Azshara (415)
+# trinket1=,id=169314,gem_id=168642,bonus_id=4798/1808/1487/4786,context=3
+#
+# Catalejo certero (435)
+# trinket1=,id=159623,bonus_id=5010/1602/5850/4783,context=16
+#
+# Bastón de Gladiador déspota (410)
+# main_hand=,id=171154,enchant_id=6112,bonus_id=40/6348/1522/4786/5843,context=25
+#
+# Caña de pescar motorizada de adquisición piscícola (120)
+# main_hand=,id=168804
+#
+# Espada corta con agujeros Defias (4)
+# main_hand=,id=2057
+#
+# Lanza de veneno de escalofrío (430)
+# main_hand=,id=168306,enchant_id=6148,gem_id=168637,bonus_id=4799/1808/1502/4786,context=5
+#
+# Mazo de la verdad llameante (350)
+# main_hand=,id=163960,bonus_id=4802/1472/4786,context=54
+#
+# Mazo de la verdad llameante (350)
+# off_hand=,id=163960,bonus_id=4802/1472/4786,context=54
+# Post your Simc Addon Export text here.
